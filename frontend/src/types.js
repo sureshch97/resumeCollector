@@ -1,0 +1,7 @@
+export const ADD_PROFILE = "ADD_PROFILE"
+export const PROFILE_ERROR = "PROFILE_ERROR"
+export const SET_ALERT = 'SET_ALERT'
+export const REMOVE_ALERT = 'REMOVE_ALERT'
+export  const CLEAR_CURRENT = 'CLEAR_CURRENT'
+export const CART_ADD_ITEMS = 'CART_ADD_ITEMS'
+export  const   CART_REMOVE_ITEMS = 'CART_REMOVE_ITEMS'

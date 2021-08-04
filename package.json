@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon  backend/server.js",
+    "frontend": "npm start --prefix frontend",
+    "frontendinstall": "npm instal --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "suresh ch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootswatch": "^5.0.2",
+    "config": "^3.3.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-validator": "^6.12.0",
+    "gridfs-stream": "^1.1.1",
+    "materialize-css": "^1.0.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.14",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.0",
+    "react-dom": "^17.0.2",
+    "react-grid-system": "^7.2.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
